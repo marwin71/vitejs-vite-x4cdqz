@@ -15,7 +15,7 @@ const isActive = (day) => currentDay.value === day;
 
 const clicked = (day) => {
   if (currentDay.value === day) {
-    // alert(day);
+    alert(day);
   }
 };
 
